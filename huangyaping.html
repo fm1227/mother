@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#f7c8d3" />
+    <title>黄亚萍女士，母亲节快乐</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="app" data-step="0">
+      <section class="stage stage-intro is-active" aria-label="开场祝福">
+        <div class="garden" aria-hidden="true">
+          <span class="sun"></span><span class="cloud cloud-a"></span><span class="cloud cloud-b"></span>
+          <span class="stem stem-a"></span><span class="stem stem-b"></span><span class="stem stem-c"></span>
+          <span class="bloom bloom-a"></span><span class="bloom bloom-b"></span><span class="bloom bloom-c"></span>
+          <span class="leaf leaf-a"></span><span class="leaf leaf-b"></span>
+          <span class="spark spark-a"></span><span class="spark spark-b"></span><span class="spark spark-c"></span>
+        </div>
+        <div class="intro-copy">
+          <p class="eyebrow">Mother's Day</p>
+          <h1>黄亚萍女士<br />母亲节快乐</h1>
+          <p class="hero-love">妈妈，我爱你！</p>
+        </div>
+        <button class="primary" type="button" data-next>妈妈，点这里</button>
+      </section>
+
+      <section class="stage stage-envelope" aria-label="打开信封">
+        <div class="envelope-wrap">
+          <button class="envelope" type="button" data-next aria-label="点击打开信封">
+            <span class="flap"></span><span class="letter-peek">给妈妈的一封信</span><span class="seal">爱</span>
+          </button>
+        </div>
+        <p class="hint">轻轻点一下信封</p>
+      </section>
+
+      <section class="stage stage-letter" aria-label="给妈妈的话">
+        <article class="letter">
+          <p>亲爱的黄亚萍女士，母亲节快乐！</p>
+          <p>这么多年真的辛苦你了。家里大大小小的家务从来都是你一人操劳，家里的开销收支也一直由你细心打理、精打细算。</p>
+          <p>这么多年全心全意照顾我和妹妹，为家里忙里忙后，默默付出了太多太多。</p>
+          <p>以后我和妹妹会好好孝顺你嘟！希望你往后少点操心，多点清闲，身体健康，早日发财，天天开心，每天都能睡个好觉，永远做最幸福的妈妈。</p>
+          <p class="signature">爱您的范欣</p>
+        </article>
+        <button class="primary" type="button" data-next>还有几句话想说</button>
+      </section>
+
+      <section class="stage stage-cards" aria-label="祝福卡片">
+        <div class="cards" data-card-list>
+          <article class="wish-card is-current">
+            <strong>第一张</strong>
+            <h2>少点操心</h2>
+            <p>家里的事情辛苦你操劳了这么多年，以后希望你能多一点清闲。</p>
+          </article>
+          <article class="wish-card">
+            <strong>第二张</strong>
+            <h2>天天开心</h2>
+            <p>希望你每天都有好心情，吃得香，睡得好，身体一直健健康康。</p>
+          </article>
+          <article class="wish-card">
+            <strong>第三张</strong>
+            <h2>早日发财</h2>
+            <p>愿你顺顺利利，财运满满，永远做最幸福的妈妈。</p>
+          </article>
+        </div>
+        <button class="primary" type="button" data-card-next>翻下一张</button>
+      </section>
+
+      <section class="stage stage-final" aria-label="最终祝福">
+        <div class="final-garden" aria-hidden="true">
+          <span></span><span></span><span></span><span></span><span></span>
+        </div>
+        <div class="final-copy">
+          <p class="eyebrow">送给最亲爱的妈妈</p>
+          <h2>黄亚萍女士，母亲节快乐</h2>
+          <p>这么多年辛苦你了。以后我和妹妹会好好孝顺你嘟，希望你少点操心，多点清闲，天天开心，永远幸福。</p>
+        </div>
+        <button class="secondary" type="button" data-replay>再看一遍</button>
+      </section>
+
+      <nav class="progress" aria-label="进度">
+        <span class="dot is-active"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span>
+      </nav>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
